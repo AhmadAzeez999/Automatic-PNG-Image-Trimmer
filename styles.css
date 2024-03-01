@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header 
+{
+    background-color: #6e3dbe;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    padding: 20px 50px 20px 50px;
+}
+
+header img
+{
+    width: 150px;
+}
+
+.topSection
+{
+    margin: auto;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.dragdropSection
+{
+    margin: auto;
+    max-width: 900px;
+}
+
+.talkSection
+{
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.talkSection h2
+{
+    margin-bottom: 20px;
+}
+
+/* Download button styles */
+#downloadButton 
+{
+    display: none; /* Initially hidden */
+    margin-top: 20px;
+    padding: 30px 20px;
+    font-size: 1em;
+    background-color: #6e3dbe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#downloadButton:hover 
+{
+    background-color: #a268ff;
+}
+
+
+/* Style for drop area */
+#dropArea 
+{
+    margin-block: 50px;
+    border: 2px dashed #ccc;
+    padding: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+  
+/* Style for file input (hidden) */
+#fileInput 
+{
+    display: none;
+}
+
+/* View box styles */
+#viewBox 
+{
+    width: 500px;
+    margin: 20px auto;
+    border: 2px dashed #ccc;
+    overflow: hidden; /* Hide overflow content */
+}
+
+#viewBox img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+footer
+{
+    background-color: #6e3dbe;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+    padding: 20px 0px 20px 0px;
+}
+
+  

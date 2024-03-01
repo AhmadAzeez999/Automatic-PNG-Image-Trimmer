@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic PNG Image Trimmer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./images/AT logo white.png">
+        </a>
+    </header>
+    <section class="topSection">
+        <h1> Trimming PNG images made easy</h1>
+        <p>Drag and drop the image you want to trim and the rest
+            will be done for you. IT'S THAT EASY!!!
+        </p>
+    </section>
+
+    <section class="dragdropSection">
+        <div id="dropArea">
+            <p>Drag & Drop Image Here</p>
+            <input type="file" id="fileInput">
+        </div>
+        <button id="downloadButton" style="display: none;">Download Trimmed Image</button>
+        <div id="viewBox">
+            <div id="output"></div>
+        </div>
+    </section>
+
+    <section class="talkSection">
+        <h2>Why I made this</h2>
+        <p>Now, I do a lot of image, video editing, and website development, and getting png images online
+            is something I do pretty much all the time. But there was something that always annoyed me
+            when I'm searching for images online, and that's when the actual graphic or logo in the 
+            png was way smaller than the size of the png itself.
+            <br />
+            <br />
+            Why was this a problem? Well, whenever I wanted to put different png images together in a website
+            I'm working on, some images end up looking smaller than the others because of the difference in how
+            the graphics are sized in the png images.
+            <br />
+            <br />
+            <img src="./images/Png problem showcase.PNG">
+            <p><i>How it looked</i></p>
+            <br />
+            <br />
+            So to fix this, I always had to go to photoshop, crop the png image, then save the newly cropped image.
+            This was fine, but I wanted a faster way, so I can increase my workflow, then I made this.
+            <br />
+            <br />
+            This made using an algorithm I wrote in javascript that checks each pixel in and image, and detects which pixels are
+            transparent and which ones aren't.
+            <br />
+            <br />
+            <img src="./images/Png problem showcase 2.PNG">
+            <p><i>How it looks after</i></p>
+        </p>
+    </section>
+
+    <footer>
+        <p>Automatic PNG Trimmer by Ahmad Azeez</p>
+    </footer>
+
+    <script src="autoTrimImage.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
